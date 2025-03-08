@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.android.hellothere.databinding.ActivityMainBinding
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,11 +24,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnHello.setOnClickListener {
-            var str : String = binding.inHello.text.toString()
-            binding.tvHello.setText("Hello, $str")
+            val str : String = binding.inHello.text.toString()
+            if(str.isBlank()){
+                binding.tvHello.setText("Looks like you forgot to enter your name")
+                binding.tvHello.setTextColor(ContextCompat.getColor(this, R.color.error))
+            } else {
+                binding.tvHello.setText("Hello, $str")
+                binding.tvHello.setTextColor(ContextCompat.getColor(this, R.color.black))
+            }
         }
 
     }
 
 
 }
+
