@@ -15,7 +15,7 @@
         android:layout_marginTop="64dp"
 
         android:layout_marginEnd="101dp"
-        android:text="Mobile Programming Assignment"
+        android:text="@string/mobile_programming_assignment"
         android:textAlignment="center"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -70,8 +70,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Muhammad Nune Huria Sakti - F1D022075"
-        android:textSize="10sp"
+        android:text="@string/name"
+        android:textSize="11sp"
         android:textColor="#A0A0A0"
 
 
