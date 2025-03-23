@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pm25-week3</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="myName">Muhammad Nune Huria Sakti - F1D022075</string>
+</resources>
