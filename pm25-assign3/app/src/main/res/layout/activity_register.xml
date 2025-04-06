@@ -27,7 +27,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="start"
             android:orientation="horizontal"
             tools:ignore="UseCompoundDrawables">
 
@@ -37,14 +37,6 @@
                 android:layout_height="24dp"
                 android:contentDescription="@string/logo_description"
                 app:srcCompat="@drawable/baseline_arrow_back_24" />
-
-            <TextView
-                android:id="@+id/btnText_back"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/back_button"
-                android:textAppearance="@style/app_name" />
         </LinearLayout>
 
         <LinearLayout
@@ -267,7 +259,6 @@
                 android:id="@+id/btn_skip"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
                 android:layout_weight="1.5"
                 android:text="@string/skip_button"
                 android:textAlignment="center"
