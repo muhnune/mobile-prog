@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Dara Care</string>
+
+    <!--    Welcome 1 Page -->
+    <string name="welcome_greet">Welcome to DaraCare</string>
+    <string name="welcome_message">Care about your health, start from yourself</string>
+    <string name="desc_image1" translatable="false">Welcome image</string>
+
+    <!--    Login Page-->
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="input_email">Type your email here</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="input_password">Type your password here</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Sign up"</string>
+    <string name="sign_in_info">Enter your email and password to log in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logo_description" translatable="false">logo daracare</string>
+    <string name="google_description" translatable="false">icon google</string>
+    <string name="or_divider">Or sign in with</string>"
+    <string name="login_with_google">Login with Google</string>"
+    <string name="dont_have_account">Don\'t have an account?"</string>
+
+    <!--    Register Page -->
+    <string name="have_an_account">Have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="birthday_date">Birthday</string>
+    <string name="create_password">Create Password</string>
+    <string name="input_fullname">Type your full name here</string>
+    <string name="input_birthday">Input your birthday here</string>
+    <string name="or_signupwith">Or sign up with</string>
+
+<!--    Main Page -->
+    <string name="welcome_user">Welcome, </string>
+
+
+    <!--    General -->
+    <string name="next_step">Next</string>
+    <string name="skip_button">Skip</string>
+    <string name="back_button">Back</string>
+</resources>

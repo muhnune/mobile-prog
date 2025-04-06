@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dara Care</string>
+    <string name="welcome_greet">Selamat datang di DaraCare</string>
+    <string name="welcome_message">Peduli kesehatanmu, mulai dari diri sendiri</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+    <string name="skip_button">Lanjut dulu deh</string>
+    <string name="back_button">Kembali</string>
+    <string name="input_fullname">Ketikkan nama lengkap anda</string>
+    <string name="input_birthday">Masukkan tanggal lahir</string>
+    <string name="or_signupwith">Atau daftar dengan</string>
+    <string name="welcome_user">Selamat datang,</string>
+    <string name="next_step">Lanjut</string>
+    <string name="input_email">Masukkan email anda</string>
+    <string name="input_password">Masukkan password anda</string>
+    <string name="action_sign_in">Masuk atau daftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="action_sign_up_short">Daftar</string>
+    <string name="sign_in_info">Masukkan email dan password anda</string>
+    <string name="invalid_username">Nama pengguna tidak ditemukan</string>
+    <string name="invalid_password">Password harus lebih dari 5 huruf</string>
+    <string name="login_failed">Gagal masuk</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="or_divider">Atau masuk dengan</string>
+    <string name="login_with_google">Masuk dengan Google</string>
+    <string name="have_an_account">Sudah punya akun?</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="birthday_date">Tanggal Lahir</string>
+    <string name="create_password">Buat Password</string>
+</resources>

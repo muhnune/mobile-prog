@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dara Care Project</string>
+    <string name="input_password">Masukkan password disini</string>
+    <string name="action_sign_in">Masuk atau Daftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="invalid_username">Email tidak ditemukan</string>
+    <string name="invalid_password">Password harus lebih dari 5 karakter</string>
+    <string name="login_failed">Gagal masuk</string>
+    <string name="action_sign_up_short">Daftar</string>
+    <string name="sign_in_info">Masukkan email dan password untuk masuk</string>
+    <string name="input_email">Masukkan email disini</string>
+    <string name="forgot_password">Lupa password?</string>
+    <string name="or_divider">Atau masuk dengan</string>
+    <string name="login_with_google">Masuk dengan Google</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+</resources>
