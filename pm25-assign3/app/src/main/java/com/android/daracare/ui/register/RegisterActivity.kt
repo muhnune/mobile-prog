@@ -36,6 +36,7 @@ class RegisterActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java).apply {
                 putExtra("USER_DATA", user)
             }
+
             startActivity(intent)
             finish()
         }

@@ -19,7 +19,6 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Get user from intent
         registeredUser = intent.getParcelableExtra("USER_DATA")
 
         binding.login.setOnClickListener {
